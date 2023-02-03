@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+  }
+  
+  section {
+    margin-top: 50px;
+  }
+  
+  #logo-container {
+    display: inline-flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 0;
+  }
+  
+  #logo-container img {
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  #nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  #nav ul li {
+    display: inline-block;
+    padding: 0 5px;
+    margin-right: 5px;
+  }
+  
+  #nav ul li a {
+    color: seashell;
+  }
+  
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 700px;
+    background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1kis3ow*_ga*MTUwMjExMzEwNS4xNjczNDczNDYx*_ga_3LRZM6TM9L*MTY3NTQ1NDA5OC4yMC4xLjE2NzU0NTU3ODQuNjAuMC4w') center no-repeat;
+  }
+  
+  #banner {
+    width: 1200px;
+    background-color: black;
+    padding: 10px 0;
+  }
+  
+  #tea-of-month {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #teas {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tea {
+    margin: 10px;
+  }
+  
+  .tea img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .tea h4 {
+    margin-top: 10px;
+  }
+  
+  #locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+    background: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1kis3ow*_ga*MTUwMjExMzEwNS4xNjczNDczNDYx*_ga_3LRZM6TM9L*MTY3NTQ1NDA5OC4yMC4xLjE2NzU0NTU3ODQuNjAuMC4w') center no-repeat;
+    overflow-y: scroll;
+  }
+  
+  #locations h2 {
+    flex: 1 1 100%;
+    align-self: flex-end; 
+  }
+  
+  .location {
+    align-self: flex-start;
+    width: 300px;
+    margin: 15px 20px;
+    background-color: black;
+    line-height: 200%;
+    padding: 10px 0;
+  }
+  
+  #footer {
+    margin-left: 20px;
+    text-align: left;
+  }
